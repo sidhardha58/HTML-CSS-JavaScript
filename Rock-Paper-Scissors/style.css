@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: #000000;
+    color: #ffffff;
+      text-shadow:
+      0 0 7px #f7aced,
+      0 0 10px rgb(224, 67, 190),
+      0 0 21px rgb(224, 67, 190),
+      0 0 42px rgb(232, 93, 221),
+      0 0 82px rgb(224, 67, 190);
+    text-align: center;
+    font-size: 2rem;
+    height: 5rem;
+    line-height: 5rem;
+    border: 1px solid white;
+}
+
+.screen {
+    padding: 2rem 0rem;
+    background-color: #201E43;
+    border-radius: 2rem;
+    width: 200px;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+
+
+img {
+    width: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.5s box-shadow;
+    opacity: 0.7;
+}
+
+.choices {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#paper :hover {
+    border-radius: 50%;
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #48abe0,
+    0 0 21px #48abe0,
+    0 0 42px #48abe0;
+    opacity: 1;
+}
+
+#rock :hover{
+    border-radius: 50%;
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #df6bf3,
+    0 0 21px #df6bf3,
+    0 0 42px #df6bf3;
+    opacity: 1;
+}
+
+#scissors :hover{
+    border-radius: 50%;
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #f3f36b,
+    0 0 21px #f3f36b,
+    0 0 42px #f3f36b;
+    opacity: 1;
+}
+
+.scores {
+    margin-top: 1.5rem;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+}
+
+.user_score ,.comp_score {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.win-msg {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.highlight1 {
+    color: #ffffff;
+      text-shadow:
+      0 0 7px #df6bf3,
+      0 0 10px #df6bf3,
+      0 0 21px #df6bf3,
+      0 0 42px #df6bf3,
+      0 0 82px #df6bf3;
+}
+
+.highlight2 {
+    color: #ffffff;
+      text-shadow:
+      0 0 7px #48abe0,
+      0 0 10px #48abe0,
+      0 0 21px #48abe0,
+      0 0 42px #48abe0,
+      0 0 82px #48abe0;
+}
+
+.highlight3 {
+    color: #ffffff;
+      text-shadow:
+      0 0 7px #f3f36b,
+      0 0 10px #f3f36b,
+      0 0 21px #f3f36b,
+      0 0 42px #f3f36b,
+      0 0 82px #f3f36b;
+}
+
+#user , #comp {
+    font-size: 2.5rem;
+}
+
+.choice {
+    cursor: pointer;
+}
+
